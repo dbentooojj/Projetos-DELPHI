@@ -13,38 +13,40 @@ object Form1: TForm1
   OldCreateOrder = False
   PixelsPerInch = 96
   TextHeight = 13
-  object Edit1: TEdit
+  object edResultado: TEdit
     Left = 8
     Top = 24
     Width = 289
-    Height = 30
+    Height = 21
     Alignment = taRightJustify
     TabOrder = 0
-    Text = '0'
   end
-  object Button1: TButton
+  object bt7: TButton
     Left = 8
     Top = 70
     Width = 75
     Height = 40
     Caption = '7'
     TabOrder = 1
+    OnClick = bt7Click
   end
-  object Button2: TButton
+  object bt8: TButton
     Left = 89
     Top = 70
     Width = 75
     Height = 40
     Caption = '8'
     TabOrder = 2
+    OnClick = bt7Click
   end
-  object Button3: TButton
+  object bt9: TButton
     Left = 170
     Top = 70
     Width = 75
     Height = 40
     Caption = '9'
     TabOrder = 3
+    OnClick = bt7Click
   end
   object Button4: TButton
     Left = 251
@@ -53,30 +55,34 @@ object Form1: TForm1
     Height = 40
     Caption = '+'
     TabOrder = 4
+    OnClick = Button4Click
   end
-  object Button5: TButton
+  object bt4: TButton
     Left = 8
     Top = 116
     Width = 75
     Height = 40
     Caption = '4'
     TabOrder = 5
+    OnClick = bt7Click
   end
-  object Button6: TButton
+  object bt5: TButton
     Left = 89
     Top = 116
     Width = 75
     Height = 40
     Caption = '5'
     TabOrder = 6
+    OnClick = bt7Click
   end
-  object Button7: TButton
+  object bt6: TButton
     Left = 170
     Top = 116
     Width = 75
     Height = 40
     Caption = '6'
     TabOrder = 7
+    OnClick = bt7Click
   end
   object Button8: TButton
     Left = 251
@@ -85,38 +91,43 @@ object Form1: TForm1
     Height = 40
     Caption = '-'
     TabOrder = 8
+    OnClick = Button8Click
   end
-  object Button9: TButton
+  object bt1: TButton
     Left = 8
     Top = 162
     Width = 75
     Height = 40
     Caption = '1'
     TabOrder = 9
+    OnClick = bt7Click
   end
-  object Button10: TButton
+  object bt2: TButton
     Left = 89
     Top = 162
     Width = 75
     Height = 40
     Caption = '2'
     TabOrder = 10
+    OnClick = bt7Click
   end
-  object Button11: TButton
+  object bt3: TButton
     Left = 170
     Top = 162
     Width = 75
     Height = 40
     Caption = '3'
     TabOrder = 11
+    OnClick = bt7Click
   end
-  object Button12: TButton
+  object btnx: TButton
     Left = 251
     Top = 162
     Width = 46
     Height = 40
     Caption = 'X'
     TabOrder = 12
+    OnClick = btnxClick
   end
   object Button13: TButton
     Left = 8
@@ -126,15 +137,16 @@ object Form1: TForm1
     Caption = 'Limpar'
     TabOrder = 13
   end
-  object Button14: TButton
+  object bt0: TButton
     Left = 89
     Top = 208
     Width = 75
     Height = 40
     Caption = '0'
     TabOrder = 14
+    OnClick = bt7Click
   end
-  object Button15: TButton
+  object btntotal: TButton
     Left = 170
     Top = 208
     Width = 75
@@ -149,5 +161,6 @@ object Form1: TForm1
     Height = 40
     Caption = '/'
     TabOrder = 16
+    OnClick = Button16Click
   end
 end

@@ -20,6 +20,15 @@ type
     RadioButton2: TRadioButton;
     RadioButton3: TRadioButton;
     CheckBox1: TCheckBox;
+    Label6: TLabel;
+    Memo1: TMemo;
+    Label7: TLabel;
+    CheckBox2: TCheckBox;
+    CheckBox3: TCheckBox;
+    CheckBox4: TCheckBox;
+    Button1: TButton;
+    Button2: TButton;
+    Button3: TButton;
   private
     { Private declarations }
   public
